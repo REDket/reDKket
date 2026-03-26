@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REDKET – Play the Best Games Online</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ff0000;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-size: 1.2em;
+    }
+    button {
+      background-color: #fff;
+      color: #ff0000;
+      border: none;
+      padding: 10px 20px;
+      margin: 10px 0;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    section {
+      padding: 20px;
+    }
+    .games {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .game {
+      background-color: #111;
+      padding: 10px;
+      width: 800px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    footer {
+      background-color: #111;
+      color: #aaa;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🎮 REDKET</h1>
+  <p>Kostenlose Online-Spiele direkt im Browser – ohne Download!</p>
+  <button onclick="document.getElementById('games').scrollIntoView({behavior:'smooth'})">Jetzt spielen</button>
+</header>
+
+<section id="games">
+  <h2>🔥 Beliebte Spiele</h2>
+  <div class="games">
+    
+    <!-- Spiel 1 -->
+    <div class="game">
+      <h3>Silent Dot</h3>
+      <iframe src="https://idev.games/embed/silent-dot" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Spiel 2 -->
+    <div class="game">
+      <h3>Atomic</h3>
+      <iframe src="https://idev.games/embed/atomic" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Spiel 3 -->
+    <div class="game">
+      <h3>The Wing of War</h3>
+      <iframe src="https://idev.games/embed/the-wing-of-war" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Spiel 4 -->
+    <div class="game">
+      <h3>Treasure Island Solitaire</h3>
+      <iframe src="https://idev.games/embed/treasure-island-solitaire" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Spiel 5 -->
+    <div class="game">
+      <h3>Ball Battle</h3>
+      <iframe src="https://idev.games/embed/ball-battle" allowfullscreen></iframe>
+    </div>
+    
+    <!-- Spiel 6 -->
+    <div class="game">
+      <h3>Virus Rush</h3>
+      <iframe src="https://idev.games/embed/virus-rush" allowfullscreen></iframe>
+    </div>
+    
+  </div>
+</section>
+
+<section>
+  <h2>🎯 Kategorien</h2>
+  <p>Action | Puzzle | Racing | Fun</p>
+</section>
+
+<section>
+  <h2>ℹ️ Über REDKET</h2>
+  <p>REDKET ist deine Seite für kostenlose Online-Spiele. Spiele direkt im Browser – ohne Download, ohne Anmeldung. Wir fügen täglich neue, spannende Games hinzu!</p>
+</section>
+
+<footer>
+  © 2026 REDKET – Alle Rechte vorbehalten
+</footer>
+
+</body>
+</html>
